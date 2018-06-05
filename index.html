@@ -5,8 +5,11 @@
 	<meta name="content" width = "device-width, initial-scale = 1.0">
 	<meta charset="utf-8">
 	<!-- add in the bootstrap CDN -->
-
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<!-- Typography for the font -->
+
+	<!-- Custom Style Sheets -->
+	<link rel="stylesheet" href="cs/styles.css">
 
 
 </head>
@@ -15,23 +18,55 @@
 <!-- Jumbotron of the Logo and sign in sheet-->
 
 
-		<div class="row">
-			<div>Troop: Tracvel made Social</div>
+		<div class="jumbotron">
+			<h1>Troop: <span class= "subTitle">Travel made Social</span></h1>
+
+		<!-- Form will sit below this comment -->
+
+			<form>
+				<div class="form-group">
+				<label>User Name : </label>
+				<input type="text" class="form-control">
+				<label>Password :</label>
+				<input type="password" class="form-control">
+				</div>
+			<!-- Submit button formatting -->
+				<button type="submit" class="btn btn-dark">Submit</button>
+				<small>Let the adventure begin!</small>
+			</form>
+
+
+
+
+
 		</div>
 <!-- Sections parted into 3 detailing the benefits of using the app -->
 
 		<div class="row">
 			<div class="col-md-4">
+				<h5>Gamicifcation of travel</h3>
+				<p> earn badges for the places you've been to show off to the world that your globetrotter!</p>
 			</div>
 
 			<div class="col-md-4">
+				<h5>Expand your travel network globally</h3>
+					<p> find out where people are travleing to all over the world. Troop conects everyone </p>
 			</div>
 
 			<div class="col-md-4">
+				<h5>Assemble your crew and go</h3>
+				<p> decided wherre to go, divide the expenses amoung friedns , book travel and Go! </p>
 			</div>
 		</div>
 <!-- Footer Section -->
 		<div class="row">
+			<div class="col-md-12">
+				<small>Contact</small>
+				<small>Blog</small>
+				<small>About</small>
+
+
+			</div>
 		</div>
 	</div>
 </body>

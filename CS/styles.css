@@ -1,0 +1,11 @@
+
+/** TROOP STYLING **/
+
+.btn-dark:hover {
+	background-color: seagreen;
+	border: 1px solid seagreen;
+}
+
+span {
+	font-family: "jua";
+}
